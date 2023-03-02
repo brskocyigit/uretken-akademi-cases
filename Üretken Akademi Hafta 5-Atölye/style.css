@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+.count{
+    font-size:200px;
+}
+
+.stopwatch{
+    border:1px solid #000;
+    height: 100vh;
+    background:aqua;
+}
+
+.startBtn{
+    background-color:green;
+    color:white;
+    font-size:24px;
+    width: 200px;
+    height: 100px;
+    border:1px solid none;
+    border-radius:30px;
+}
+
+.stopBtn{
+    background-color:red;
+    color:white;
+    font-size:24px;
+    width: 200px;
+    height: 100px;
+    border:1px solid none;
+    border-radius:30px;
+}
+

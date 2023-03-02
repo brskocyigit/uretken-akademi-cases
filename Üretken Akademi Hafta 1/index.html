@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="lib/style.css" />
+  </head>
+
+  <body>
+    <canvas id="nav" width="300" height="50" style="border: 5px solid #000000">
+    </canvas>
+    <br />
+    <table width="310">
+      <thead>
+        <tr>
+          <td id="value" class="result" colspan="3"></td>
+          <td class="clear" id="btn0" onclick="clearResult()"><input type="submit" value="C" /></td>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+         <td><input id="btn1" type="submit" value="1" onclick="buttonClicked(this.id)" /></td>
+          <td><input id="btn2" type="submit" value="2" onclick="buttonClicked(this.id)" /></td>
+          <td><input id="btn3" type="submit" value="3" onclick="buttonClicked(this.id)" /></td>
+           <td><input id="btn4" type="submit" value="/" onclick="buttonClicked(this.id)" /></td>
+        </tr>
+        <tr>
+           <td><input id="btn5" type="submit" value="4" onclick="buttonClicked(this.id)" /></td>
+           <td><input id="btn6" type="submit" value="5" onclick="buttonClicked(this.id)" /></td>
+           <td><input id="btn7" type="submit" value="6" onclick="buttonClicked(this.id)" /></td>
+           <td><input id="btn8" type="submit" value="-" onclick="buttonClicked(this.id)" /></td>
+        </tr>
+        <tr>
+           <td><input id="btn9" type="submit" value="7" onclick="buttonClicked(this.id)" /></td>
+           <td><input id="btn10" type="submit" value="8" onclick="buttonClicked(this.id)" /></td>
+           <td><input id="btn11" type="submit" value="9" onclick="buttonClicked(this.id)" /></td>
+           <td><input id="btn12" type="submit" value="+" onclick="buttonClicked(this.id)" /></td>
+        </tr>
+        <tr>
+          <td><input id="btn13" type="submit" value="." onclick="buttonClicked(this.id)" /></td>
+           <td><input id="btn14" type="submit" value="0" onclick="buttonClicked(this.id)" /></td>
+           <td><input id="btn15" type="submit" value="=" onclick="buttonClicked(this.id)" /></td>
+           <td><input id="btn16" type="submit" value="*" onclick="buttonClicked(this.id)" /></td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+  <script src="lib/script.js"></script>
+</html>

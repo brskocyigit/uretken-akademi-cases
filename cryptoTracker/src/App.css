@@ -1,0 +1,78 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.table {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid none;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.table-head-row,
+.table-row-item:nth-child(even) {
+  background-color: rgb(49, 49, 49);
+}
+
+.table-row-item:nth-child(odd) {
+  background-color: rgb(126, 126, 126);
+}
+
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color:white;
+}
+
+img {
+  width: 30px;
+  height: 30px;
+}
+
+.css-1ex1afd-MuiTableCell-root {
+  color: wheat !important;
+  font-size: 15px !important;
+  text-transform: uppercase;
+}
+
+.css-1ygcj2i-MuiTableCell-root {
+  color: white !important;
+  text-transform: uppercase;
+}
+
+
+input:focus{
+  border:none;
+}
+
+.loadMoreBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.coinCounter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.counter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border:1px solid white;
+  border-radius: 50%;
+  font-weight: 700;
+  width: 50px;
+  height: 50px;
+  background-color: burlywood;
+  margin-right: 50px;
+}
